@@ -1,5 +1,5 @@
 {
-    "name": "friends-of-behat/mink-extension",
+    "name": "updivision/minkextension",
     "description": "Mink extension for Behat",
     "license": "MIT",
     "type": "behat-extension",
@@ -22,14 +22,14 @@
     "homepage": "https://github.com/FriendsOfBehat/MinkExtension#readme",
     "require": {
         "php": "^7.4 || ^8",
-        "behat/behat": "^3.0.5",
+        "behat/behat": "^3.0.5 || ^4.0@dev",
         "behat/mink": "^1.5",
-        "symfony/config": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+        "symfony/config": "^4.4 || ^5.0 || ^6.0 || ^7.0 || ^8.0",
         "symfony/deprecation-contracts": "^1.0 || ^2.0 || ^3.0"
     },
     "require-dev": {
         "behat/mink-goutte-driver": "^1.1 || ^2.0",
-        "phpspec/phpspec": "^6.0 || ^7.0 || 7.1.x-dev",
+        "phpspec/phpspec": "^6.0 || ^7.0 || 7.1.x-dev || ^8.0",
         "mink/webdriver-classic-driver": "^1.0@dev"
     },
     "replace": {
