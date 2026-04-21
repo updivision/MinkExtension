@@ -33,7 +33,7 @@
         "mink/webdriver-classic-driver": "^1.0@dev"
     },
     "replace": {
-        "behat/mink-extension": "self.version"
+        "friends-of-behat/mink-extension": "*"
     },
     "autoload": {
         "psr-0": {
